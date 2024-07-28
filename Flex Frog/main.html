@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Froggy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <section class="instruction">
+            <h1>Flexbox Froggy</h1>
+            <p>
+                Welcome to Flexbox Froggy, a game where you help frogs to reach their specified lilypad! Using
+                 <span class="help">flex-direction</span>
+                  , 
+                 <span class="help">flex-wrap</span>
+                 and
+                 <span class="help">justify-content</span>
+                 which align items vertically and accepts the following values:
+                 <ul>
+                    <li><span class="help">flex-start</span>
+                    :Items align to the left side of the container.
+                    </li>
+                    <li><span class="help">flex-end</span>
+                    :Items align to the right side of the container.
+                    </li>
+                    <li><span class="help">center</span>
+                    :Items align to the center side of the container.
+                    </li>
+                    <li><span class="help">space-between</span>
+                    :Items display with equal spacing between them.                    
+                    </li>
+                    <li><span class="help">space-around</span>
+                    :Items display with equal spacing around them. 
+                    </li>
+                 </ul>
+                </p>
+                <div class="editor">
+                    <div class="line-numbers">1<br>2<br>3<br>4<br>5<br>6<br>7<br>8<br>9<br>10</div>
+                    <pre>#pond {
+  display: flex;
+<textarea></textarea>
+<pre>}</pre>
+            </pre>
+                <button>Next</button>
+                 </div>
+            
+        </section>
+        
+        <section class="pond">
+            <div class="forefront">
+                <div class="frog-container">
+                    <div class="frog green"></div>
+                </div>
+                <div class="frog-container">
+                    <div class="frog green"></div>
+                </div>
+                
+                
+            </div>
+            <div class="background" style="justify-content: center;">
+                <div class="lily-container">
+                    <div class="lily green" style="transform: scale(0.88) rotate(322deg)"></div>
+                </div>
+                <div class="lily-container">
+                    <div class="lily green" style="transform: scale(0.95) rotate(10deg)"></div>
+                </div>
+                
+            </div>
+        </section>
+    </div>
+
+<script src="app.js"></script>
+</body>
+</html>
